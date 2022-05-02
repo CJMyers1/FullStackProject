@@ -1,0 +1,284 @@
+/* Import is used for importing certain things in */
+@import "/CSS/general.css";
+/* This import is so the :root items can be used in this css */
+/* Ohter imports are icons fonts etc and more im sure */
+
+/**********************************/
+/*            Header              */
+/**********************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--tint-1);
+  height: 8rem;
+  padding: 0 4.4rem;
+}
+
+.logo {
+  height: 4.4rem;
+}
+
+/**********************************/
+/*            Header              */
+/**********************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--gray-1);
+  font-weight: 500;
+  font-size: 2em;
+  transition: all 0.4s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: var(--primary-color);
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 1.6rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  color: var(--gray-2);
+  background-color: var(--tint-2);
+}
+
+/**********************************/
+/*          Hero Section          */
+/**********************************/
+
+.section-hero {
+  background-color: var(--tint-1);
+  height: 90vh;
+  padding: 6.4rem 0 8rem 0;
+}
+
+.hero {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem 4.8rem;
+  /* Might need to adjust padding if image isnt big */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10.8rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.hero-note {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  padding: 2.4rem;
+}
+
+/*********************************/
+/*      Description Section      */
+/*********************************/
+
+.section-description {
+  padding: 8rem;
+}
+
+.breif-description {
+  order: 1;
+}
+
+/* Placeholder Text */
+.what-is-mealbuddy-img {
+  width: 500px;
+  background-color: green;
+  order: 0;
+}
+
+/********************************/
+/*        How to Section        */
+/********************************/
+
+.section-how {
+  margin: 0 auto;
+  padding: 6.4rem;
+}
+
+.step-number {
+  font-size: 9.8rem;
+  font-weight: 500;
+  color: var(--gray-02);
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
+
+.step-text-box {
+  margin-bottom: 3.6rem;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.step-img {
+  height: 300px;
+  border-radius: 9px;
+}
+
+/*********************************/
+/*            How Soon           */
+/*********************************/
+
+.how-soon {
+  margin: 0 auto;
+  padding: 4.8rem;
+  box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
+}
+
+.release-container {
+  border: 1px solid var(--secondary-color);
+  border-radius: 9px;
+  padding: 2.4rem;
+}
+
+.release-time {
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+/********************************/
+/*         Faq Accordian        */
+/********************************/
+
+.faq-accordian {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.faq {
+  box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
+  padding: 2.4rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 1.2rem;
+  row-gap: 2.4rem;
+  align-items: center;
+}
+
+.faq-number,
+.faq-text {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.faq-number {
+  color: var(--tint-2);
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: var(--primary-color);
+  cursor: pointer;
+}
+
+.faq-answer {
+  font-size: 1.8rem;
+}
+
+.hidden-faq {
+  grid-column: 2;
+  display: none;
+}
+
+/********************************/
+/*            Form Box          */
+/********************************/
+
+.subscript-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.waitlist {
+  color: var(--gray-02);
+}
+
+.form-input {
+  border: 2px solid var(--primary-color);
+}
+
+.btn--form {
+  margin-top: 2.4rem;
+  font-size: 3.6rem;
+  border-radius: 9px;
+  background-color: var(--secondary-color);
+
+  cursor: pointer;
+}
+
+/********************************/
+/*             Footer           */
+/********************************/
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  align-self: center;
+  font-size: 1.8rem;
+}
+
+/* More Features */
+
+h3 {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+.new-feature {
+  border: 1px var(--secondary-color) solid;
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 500;
+}
