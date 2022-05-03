@@ -72,6 +72,7 @@ medium: 11px
 html {
   /* Default is 16px using 10px as a percentage */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
