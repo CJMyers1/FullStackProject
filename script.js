@@ -7,7 +7,9 @@ const item = document.createElement("p");
 const newFeat = document.querySelector(".feature-submit");
 
 const year = document.querySelector(".year");
-const currentYear = new Date().getFullYear;
+const currentYear = new Date().getFullYear();
+
+console.log(currentYear);
 
 year.textContent = currentYear;
 
