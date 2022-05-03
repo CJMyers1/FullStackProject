@@ -1,7 +1,4 @@
-/* Import is used for importing certain things in */
 @import "/CSS/general.css";
-/* This import is so the :root items can be used in this css */
-/* Ohter imports are icons fonts etc and more im sure */
 
 /**********************************/
 /*            Header              */
@@ -70,8 +67,9 @@
   padding-top: 0;
   padding-bottom: 0;
   z-index: 10000;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgba(255, 255, 255, 0.45);
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(10px);
 }
 
 .sticky .section-hero {

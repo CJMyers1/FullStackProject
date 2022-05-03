@@ -135,21 +135,10 @@ body {
   margin-bottom: 1.2rem;
 }
 
-/* Items here will change with each project and setup. best to hold common display setting here such as grid settings for columns etc others used here are common used heading settings, button settings, link settings */
-
 /*****************************/
 /*       Helper Classes      */
 /*****************************/
 
 .margin-top-sm {
   margin-top: 1rem;
-}
-
-/* Here will be clases that also use !important so that they override other settings. such examples are margin settings to override and a center text class. */
-
-/* Temp Use */
-.hero-img-box {
-}
-
-.what-is-img-box {
 }
